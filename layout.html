@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css intermediário</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script>
+		var mudaPagina = function(){
+			
+			if(document.getElementsByClassName("teste")){
+				alert('A página não muda teste de DOM')
+			
+			}else{
+			
+			} 
+
+		}
+
+
+
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div id="marca"></div>
+		<div id="conteudo">
+			<div id="conteudo-principal">
+			<h2>Conteúdo Principal</h2> 
+			<img class="img-noticia" src="imagens/natureza.jpg">
+			<p>consectetur adipiscing elit. Ut pretium euismod malesuada. Aliquam bibendum vel mi in varius. Pellentesque dignissim ipsum sit amet velit consectetur blandit eu at massa. Maecenas suscipit neque eget lacus cursus, quis lobortis nisi convallis. Quisque nec dignissim sapien, nec consectetur turpis</p>
+
+			<h2>Conteúdo Principal</h2> 
+			<p>consectetur adipiscing elit. Ut pretium euismod malesuada. Aliquam bibendum vel mi in varius. Pellentesque dignissim ipsum sit amet velit consectetur blandit eu at massa. Maecenas suscipit neque eget lacus cursus, quis lobortis nisi convallis. Quisque nec dignissim sapien, nec consectetur turpis</p>
+			</div>
+			
+			<div id="conteudo-secundario">
+			<h2>Lorem ipsum dolor sit amet</h2> 
+			<p>consectetur adipiscing elit. Ut pretium euismod malesuada. Aliquam bibendum vel mi in varius. Pellentesque dignissim ipsum sit amet velit consectetur blandit eu at massa. Maecenas suscipit neque eget lacus cursus, quis lobortis nisi convallis. Quisque nec dignissim sapien, nec consectetur turpis</p>
+			</div>
+	
+		</div>
+		<div id="navegacao">
+			<ul>
+				<li><a onclick="mudaPagina()"  class="teste" href="#">Home</a></li>
+				<li><a onclick="mudaPagina()"  class="teste" href="#">Sobre</a></li>
+				<li><a onclick="mudaPagina()"  class="teste" href="#">Notícias</a></li>
+				<li><a onclick="mudaPagina()"  class="teste" href="#">Produtos</a></li>
+				<li><a onclick="mudaPagina()"  class="teste" href="#">Serviços</a></li>
+				<li><a onclick="mudaPagina()"  class="teste" href="#">Clientes</a></li>
+				<li><a onclick="mudaPagina()"  class="teste" href="#">Contato</a></li>
+			</ul>
+		</div>
+		<div id="rodape">&copy DiegoStein 2019</div>
+
+
+	</div>
+
+
+
+</body>
+</html>
